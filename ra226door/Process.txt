@@ -1,0 +1,17 @@
+-> tcsh
+-> gdfit
+-> file ra226.Chn #data file 
+-> recall ra226.gdf #background file
+-> some manipulation with peaks
+-> peakmode
+-> quickfit
+-> auto
+-> save #save modified file in default (ra226.gdf)
+-> savebg #save bgrates.dat
+-> certificates.pdf #inclues the source activity
+-> ra226.py #calculates the radioactivity of Bi and Pb with the help of bgrates values, errors and br
+#need to plug the values to each peak
+-> ra226.py creates the .csv file with energy eff and error
+-> ra226.py also uses other .py files
+-> effplot.py plots eff vs energy
+-> ra226effvsenergy.pdf #results
